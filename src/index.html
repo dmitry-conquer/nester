@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="uk">
+  @@include('components/head.html', { 'title': 'Nester A.A' })
+  <body>
+    <div class="relative flex min-h-screen flex-col overflow-hidden">
+      @@include('components/header.html', { })
+      <main>
+        <section class="relative bg-[#EEF9FF] bg-cover bg-center pb-[101px] pt-[66px] lg:py-[190px]" style="background-image: url(./img/hero.webp)">
+          <div class="container relative z-10">
+            <div class="flex max-w-[794px] flex-col items-start">
+              <h1 class="mb-6 text-2xl font-bold !leading-snug text-gray-700 sm:mb-[30px] sm:text-4xl">Наша команда кваліфікованих юристів, допоможе чоловікам призовного віку, уникнути мобілізацію та перетнути кордон за нагальної потреби.</h1>
+              <p class="mb-6 text-lg font-semibold !leading-snug text-gray-700 sm:mb-[30px] sm:text-2xl">Консультація для кожного та уникнути мобілізацію !</p>
+              <a href="#" class="flex h-[57px] items-center justify-center gap-x-2.5 bg-typo-200 px-4 transition-colors hover:bg-typo-200/80 sm:h-[73px]">
+                <svg class="size-5 text-white sm:size-6">
+                  <use href="./sprites/sprite.svg#icon-telegram"></use>
+                </svg>
+                <span class="text-base font-semibold text-white sm:text-lg">Написати в Telegram</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section id="solutions" class="py-[60px] md:py-[120px]">
+          <div class="container">
+            <div class="mb-10 flex flex-col items-center gap-y-5 text-center sm:mb-[60px] sm:gap-y-[30px]">
+              <h2 class="text-xl font-bold leading-snug text-gray-700 sm:text-4xl">Знайдемо рішення для кожного!</h2>
+              <span class="h-[1px] w-[105px] bg-primary"></span>
+              <p class="text-base font-semibold leading-snug text-gray-700 sm:text-2xl">Не бажаєте проходити службу у збройних силах України?</p>
+            </div>
+
+            <div class="flex gap-x-[56px]">
+              <div class="flex flex-col items-center sm:items-start">
+                <div class="mb-[30px] space-y-[30px] text-base font-medium leading-relaxed sm:mb-[55px] sm:text-lg">
+                  <p>Вважаєте що краще зможете допомогти своїй країні фінансово чи займаючись волонтерством?</p>
+                  <p>Потрібно виїхати за кордон до рідних?</p>
+                  <p>
+                    <strong>Ми Вам допоможемо!</strong>
+                  </p>
+                  <p>Наша команда кваліфікованих юристів шукає варіанти перетину кордону та уникнення мобілізації!</p>
+                  <p>Напишіть нам на телеграм, коротко опишіть свою ситуацію, наш менеджер надасть варіант який підійде саме для Вас на даний момент.</p>
+                  <p>Допоможемо отримати тимчасове посвідчення військовозобовʼязаного, навіть якщо Ви знаходитесь за кордоном.</p>
+                </div>
+                <a href="#" class="flex h-[57px] items-center justify-center gap-x-2.5 bg-typo-200 px-4 transition-colors hover:bg-typo-200/80 sm:h-[73px]">
+                  <svg class="size-5 text-white sm:size-6">
+                    <use href="./sprites/sprite.svg#icon-telegram"></use>
+                  </svg>
+                  <span class="text-base font-semibold text-white sm:text-lg">Написати в Telegram</span>
+                </a>
+              </div>
+              <div class="relative hidden h-full w-[420px] shrink-0 lg:block">
+                <div class="absolute -bottom-5 -right-5 h-full w-full border-[2px] border-primary"></div>
+                <img src="./img/image1.webp" alt="Знайдемо рішення для кожного!" class="relative z-10 h-full w-full" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="bg-[#F9F7F3] py-10 md:py-[80px]">
+          <div class="container">
+            <div class="mb-10 flex flex-col items-center gap-y-5 text-center sm:mb-[30px] sm:gap-y-[30px]">
+              <h2 class="text-xl font-bold leading-snug text-gray-700 sm:text-4xl">Послуги фізичним особам</h2>
+              <span class="h-[1px] w-[105px] bg-primary"></span>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,_minmax(220px,_1fr))] gap-5 sm:grid-cols-2 lg:grid-cols-4">
+              <div class="flex h-full flex-col items-center border bg-white">
+                <div class="mb-10 flex w-full grow flex-col items-center p-[5px]">
+                  <img src="./img/ser1.webp" alt="Підійдемо до кожної ситуації індивідуально та дамо консультацію" class="h-[169px] w-full object-cover" />
+                  <p class="mt-5 px-4 text-lg font-medium !leading-snug text-typo-200">Підійдемо до кожної ситуації індивідуально та дамо консультацію</p>
+                </div>
+                <a href="#" class="flex h-[53px] w-full items-center justify-center gap-x-2.5 bg-typo-200 px-4 transition-colors hover:bg-typo-200/80">
+                  <svg class="size-5 shrink-0 text-white sm:size-6">
+                    <use href="./sprites/sprite.svg#icon-telegram"></use>
+                  </svg>
+                  <span class="whitespace-nowrap text-base font-semibold text-white xl:text-lg">Написати в Telegram</span>
+                </a>
+              </div>
+              <div class="flex h-full flex-col items-center border bg-white">
+                <div class="mb-10 flex w-full grow flex-col items-center p-[5px]">
+                  <img src="./img/ser2.webp" alt="Знайдемо рішення для чоловіків призовного віку і дамо варіанти виїзду за кордон легально!" class="h-[169px] w-full object-cover" />
+                  <p class="mt-5 px-4 text-lg font-medium !leading-snug text-typo-200">Знайдемо рішення для чоловіків призовного віку і дамо варіанти виїзду за кордон легально!</p>
+                </div>
+                <a href="#" class="flex h-[53px] w-full items-center justify-center gap-x-2.5 bg-typo-200 px-4 transition-colors hover:bg-typo-200/80">
+                  <svg class="size-5 shrink-0 text-white sm:size-6">
+                    <use href="./sprites/sprite.svg#icon-telegram"></use>
+                  </svg>
+                  <span class="whitespace-nowrap text-base font-semibold text-white xl:text-lg">Написати в Telegram</span>
+                </a>
+              </div>
+              <div class="flex h-full flex-col items-center border bg-white">
+                <div class="mb-10 flex w-full grow flex-col items-center p-[5px]">
+                  <img src="./img/ser3.webp" alt="Допоможемо у перетині кордону особам, які мають громадянство двох і більше країн!" class="h-[169px] w-full object-cover" />
+                  <p class="mt-5 px-4 text-lg font-medium !leading-snug text-typo-200">Допоможемо у перетині кордону особам, які мають громадянство двох і більше країн!</p>
+                </div>
+                <a href="#" class="flex h-[53px] w-full items-center justify-center gap-x-2.5 bg-typo-200 px-4 transition-colors hover:bg-typo-200/80">
+                  <svg class="size-5 shrink-0 text-white sm:size-6">
+                    <use href="./sprites/sprite.svg#icon-telegram"></use>
+                  </svg>
+                  <span class="whitespace-nowrap text-base font-semibold text-white xl:text-lg">Написати в Telegram</span>
+                </a>
+              </div>
+              <div class="flex h-full flex-col items-center border bg-white">
+                <div class="mb-10 flex w-full grow flex-col items-center p-[5px]">
+                  <img src="./img/ser4.webp" alt="Прискоримо процес виїзду за кордон у найшвидші терміни легально за допомогою нашого юриста!" class="h-[169px] w-full object-cover" />
+                  <p class="mt-5 px-4 text-lg font-medium !leading-snug text-typo-200">Прискоримо процес виїзду за кордон у найшвидші терміни легально за допомогою нашого юриста!</p>
+                </div>
+                <a href="#" class="flex h-[53px] w-full items-center justify-center gap-x-2.5 bg-typo-200 px-4 transition-colors hover:bg-typo-200/80">
+                  <svg class="size-5 shrink-0 text-white sm:size-6">
+                    <use href="./sprites/sprite.svg#icon-telegram"></use>
+                  </svg>
+                  <span class="whitespace-nowrap text-base font-semibold text-white xl:text-lg">Написати в Telegram</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="relative pt-10 md:pt-[80px]">
+          <img src="./img/image2.webp" alt="Про нашу компанію юристів" class="absolute right-0 top-1/2 hidden -translate-y-1/2 xl:block" />
+          <div class="container relative z-10">
+            <div class="max-sm: mb-8 flex flex-col max-sm:items-center gap-y-5 max-sm:text-center sm:mb-[30px] sm:gap-y-[30px]">
+              <h2 class="text-xl font-bold leading-snug text-gray-700 sm:text-4xl">Про нашу компанію юристів</h2>
+              <span class="h-[1px] w-[105px] bg-primary"></span>
+            </div>
+            <div class="mb-[30px] max-w-full space-y-[30px] text-base !leading-snug text-typo-200 sm:mb-[60px] sm:text-lg lg:max-w-[60%]">
+              <p>Допомогли понад 1000 українцям легально залишити територію України під час військових дій.</p>
+              <p>З вересня 2014 року ми зібрали команду юристів, яка всіляко допомагає людям, які перебувають в Україні, у вирішенні юридичних питань пов'язаних з перетином кордону та еміграції через агресією Росії на території України.</p>
+            </div>
+            <div class="grid max-w-[913px] grid-cols-2 gap-3 sm:auto-rows-[200px] sm:gap-[15px] lg:grid-cols-4">
+              <div class="flex flex-col items-center space-y-[15px] border bg-white px-2 py-5 text-center sm:pt-8">
+                <p class="text-5xl font-semibold text-primary sm:text-6xl">8</p>
+                <p class="text-lg font-semibold leading-snug text-typo-200 sm:text-lg">Років роботи</p>
+              </div>
+              <div class="flex flex-col items-center space-y-[15px] border bg-white px-2 py-5 text-center sm:pt-8">
+                <p class="text-5xl font-semibold text-primary sm:text-6xl">200</p>
+                <p class="text-lg font-semibold leading-snug text-typo-200 sm:text-lg">Консультацій на місяць</p>
+              </div>
+              <div class="flex flex-col items-center space-y-[15px] border bg-white px-2 py-5 text-center sm:pt-8">
+                <p class="text-5xl font-semibold text-primary sm:text-6xl">>300</p>
+                <p class="text-lg font-semibold leading-snug text-typo-200 sm:text-lg">Успішних справ</p>
+              </div>
+              <div class="flex flex-col items-center space-y-[15px] border bg-white px-2 py-5 text-center sm:pt-8">
+                <p class="text-5xl font-semibold text-primary sm:text-6xl">99%</p>
+                <p class="text-lg font-semibold leading-snug text-typo-200 sm:text-lg">Відсоток успішних справ</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="comments" class="py-[60px] md:py-[120px]">
+          <div class="container">
+            <div class="mb-10 flex flex-col items-center gap-y-5 text-center sm:mb-[60px] sm:gap-y-[30px]">
+              <h2 class="text-xl font-bold leading-snug text-gray-700 sm:text-4xl">Відгуки наших клієнтів</h2>
+              <span class="h-[1px] w-[105px] bg-primary"></span>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-[30px]">
+              <div class="flex flex-col items-center border px-4 pb-[35px] pt-[25px] text-center">
+                <div class="mb-[35px] flex size-[70px] flex-col items-center justify-center rounded-full bg-typo-200 text-4xl font-bold text-white sm:size-[80px] sm:text-5xl">B</div>
+                <img src="./img/q.svg" class="mb-5 block size-8 object-contain" alt="Відгук" />
+                <h3 class="mb-5 text-center text-xl font-bold text-typo-100 sm:text-2xl">Василь С</h3>
+                <p class="text-center text-base font-light !leading-snug text-typo-200 sm:text-lg">
+                  Після закінчення терміну робочої візи в Польщі, мені довелося повернутися на батьківщину, щоб оформити нову. Вже з першими днями сталися непередбачувані проблеми, та компанія, яка раніше допомагала мені, швидко вирішила усі питання.
+                </p>
+              </div>
+              <div class="flex flex-col items-center border px-4 pb-[35px] pt-[25px] text-center">
+                <div class="mb-[35px] flex size-[70px] flex-col items-center justify-center rounded-full bg-typo-200 text-4xl font-bold text-white sm:size-[80px] sm:text-5xl">І</div>
+                <img src="./img/q.svg" class="mb-5 block size-8 object-contain" alt="Відгук" />
+                <h3 class="mb-5 text-center text-xl font-bold text-typo-100 sm:text-2xl">Іван Р</h3>
+                <p class="text-center text-base font-light !leading-snug text-typo-200 sm:text-lg">
+                  Сім'я переїхала в польшу як усе почалося, але всі ми знаємо що чоловіків не пускають за кордон, вже навіть не сподівався поїхав, як мені знайомий не підказав цей сайт, звернувся до хлопців знайшли для мене рішення і ось я вже за кордоном!
+                </p>
+              </div>
+              <div class="flex flex-col items-center border px-4 pb-[35px] pt-[25px] text-center">
+                <div class="mb-[35px] flex size-[70px] flex-col items-center justify-center rounded-full bg-typo-200 text-4xl font-bold text-white sm:size-[80px] sm:text-5xl">О</div>
+                <img src="./img/q.svg" class="mb-5 block size-8 object-contain" alt="Відгук" />
+                <h3 class="mb-5 text-center text-xl font-bold text-typo-100 sm:text-2xl">Олексій С</h3>
+                <p class="text-center text-base font-light !leading-snug text-typo-200 sm:text-lg">
+                  Була запланована операція за кордоном, було все оплачено, але тут закрили кордони і я не знав що робити, поки не натрапив на дану компанію, він оперативно проконсультували мене. Склали план дій і допомогли мені перетнути кордон
+                </p>
+              </div>
+              <div class="flex flex-col items-center border px-4 pb-[35px] pt-[25px] text-center">
+                <div class="mb-[35px] flex size-[70px] flex-col items-center justify-center rounded-full bg-typo-200 text-4xl font-bold text-white sm:size-[80px] sm:text-5xl">B</div>
+                <img src="./img/q.svg" class="mb-5 block size-8 object-contain" alt="Відгук" />
+                <h3 class="mb-5 text-center text-xl font-bold text-typo-100 sm:text-2xl">Василь С</h3>
+                <p class="text-center text-base font-light !leading-snug text-typo-200 sm:text-lg">
+                  Після закінчення терміну робочої візи в Польщі, мені довелося повернутися на батьківщину, щоб оформити нову. Вже з першими днями сталися непередбачувані проблеми, та компанія, яка раніше допомагала мені, швидко вирішила усі питання.
+                </p>
+              </div>
+              <div class="flex flex-col items-center border px-4 pb-[35px] pt-[25px] text-center">
+                <div class="mb-[35px] flex size-[70px] flex-col items-center justify-center rounded-full bg-typo-200 text-4xl font-bold text-white sm:size-[80px] sm:text-5xl">І</div>
+                <img src="./img/q.svg" class="mb-5 block size-8 object-contain" alt="Відгук" />
+                <h3 class="mb-5 text-center text-xl font-bold text-typo-100 sm:text-2xl">Іван Р</h3>
+                <p class="text-center text-base font-light !leading-snug text-typo-200 sm:text-lg">
+                  Сім'я переїхала в польшу як усе почалося, але всі ми знаємо що чоловіків не пускають за кордон, вже навіть не сподівався поїхав, як мені знайомий не підказав цей сайт, звернувся до хлопців знайшли для мене рішення і ось я вже за кордоном!
+                </p>
+              </div>
+              <div class="flex flex-col items-center border px-4 pb-[35px] pt-[25px] text-center">
+                <div class="mb-[35px] flex size-[70px] flex-col items-center justify-center rounded-full bg-typo-200 text-4xl font-bold text-white sm:size-[80px] sm:text-5xl">О</div>
+                <img src="./img/q.svg" class="mb-5 block size-8 object-contain" alt="Відгук" />
+                <h3 class="mb-5 text-center text-xl font-bold text-typo-100 sm:text-2xl">Олексій С</h3>
+                <p class="text-center text-base font-light !leading-snug text-typo-200 sm:text-lg">
+                  Була запланована операція за кордоном, було все оплачено, але тут закрили кордони і я не знав що робити, поки не натрапив на дану компанію, він оперативно проконсультували мене. Склали план дій і допомогли мені перетнути кордон
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="our-team" class="bg-[#F9F7F3] py-10 md:py-[80px]">
+          <div class="container">
+            <div class="mb-10 flex flex-col items-center gap-y-5 text-center sm:mb-[30px] sm:gap-y-[30px]">
+              <h2 class="text-xl font-bold leading-snug text-gray-700 sm:text-4xl">Наша команда</h2>
+              <span class="h-[1px] w-[105px] bg-primary"></span>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,_minmax(220px,_1fr))] gap-5 sm:grid-cols-2 lg:grid-cols-4">
+              <div class="flex h-full flex-col items-center border">
+                <div class="flex w-full grow flex-col items-center p-[5px] pb-[35px]">
+                  <img src="./img/t1.webp" alt="Ірина Мазюк" class="w-full object-cover lg:h-[248px]" />
+                  <h3 class="mt-[25px] text-center text-xl font-bold text-typo-100 sm:text-2xl">Ірина Мазюк</h3>
+                  <p class="text-center text-base text-typo-200 sm:text-lg">Секретарь</p>
+                </div>
+              </div>
+              <div class="flex h-full flex-col items-center border">
+                <div class="flex w-full grow flex-col items-center p-[5px] pb-[35px]">
+                  <img src="./img/t2.webp" alt="Станіслав Кім" class="w-full object-cover lg:h-[248px]" />
+                  <h3 class="mt-[25px] text-center text-xl font-bold text-typo-100 sm:text-2xl">Станіслав Кім</h3>
+                  <p class="text-center text-base text-typo-200 sm:text-lg">Адвокат</p>
+                </div>
+              </div>
+              <div class="flex h-full flex-col items-center border">
+                <div class="flex w-full grow flex-col items-center p-[5px] pb-[35px]">
+                  <img src="./img/t3.webp" alt="Наталія Иванченко" class="w-full object-cover lg:h-[248px]" />
+                  <h3 class="mt-[25px] text-center text-xl font-bold text-typo-100 sm:text-2xl">Наталія Иванченко</h3>
+                  <p class="text-center text-base text-typo-200 sm:text-lg">Суддя місцевого суду</p>
+                </div>
+              </div>
+              <div class="flex h-full flex-col items-center border">
+                <div class="flex w-full grow flex-col items-center p-[5px] pb-[35px]">
+                  <img src="./img/t4.webp" alt="Іван Гірченко" class="w-full object-cover lg:h-[248px]" />
+                  <h3 class="mt-[25px] text-center text-xl font-bold text-typo-100 sm:text-2xl">Іван Гірченко</h3>
+                  <p class="text-center text-base text-typo-200 sm:text-lg">Помічник адвоката</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contacts" class="relative py-10 md:py-[80px]">
+          <div class="container relative z-10">
+            <div class="max-sm: mb-8 flex flex-col items-center gap-y-5 max-sm:text-center sm:mb-[30px] sm:gap-y-[30px]">
+              <h2 class="text-xl font-bold leading-snug text-gray-700 sm:text-4xl">Контакти</h2>
+              <span class="h-[1px] w-[105px] bg-primary"></span>
+              <div class="group flex items-center gap-x-2.5">
+                <svg class="size-6 text-primary">
+                  <use href="./sprites/sprite.svg#icon-loc"></use>
+                </svg>
+                <p class="text-sm font-semibold text-typo-200 transition-colors group-hover:text-primary sm:text-base">Вулиця Героїв 45, офіс 21</p>
+              </div>
+            </div>
+            <!-- GMap start -->
+            <div class="mx-auto max-w-[1000px]">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.2499070157323!2d30.259653660896834!3d50.52952206664542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472b323abd43a65d%3A0xca42f1800e4d5dc6!2z0YPQuy4g0JPQtdGA0L7QtdCyLCA0NSwg0JjRgNC_0LXQvdGMLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAwODIwMA!5e0!3m2!1sru!2sua!4v1713877942316!5m2!1sru!2sua"
+                width="100%"
+                height="360"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- End -->
+            <div class="flex justify-center">
+              <a href="#" class="mt-10 inline-flex h-[57px] items-center justify-center gap-x-2.5 bg-primary px-4 transition-colors hover:bg-primary/80 sm:h-[73px]">
+                <svg class="size-5 text-white sm:size-6 max-sm:hidden">
+                  <use href="./sprites/sprite.svg#icon-telegram"></use>
+                </svg>
+                <span class="text-sm font-semibold text-white sm:text-lg">Написати в Telegram</span>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+      @@include('components/footer.html', { })
+    </div>
+    <script type="module" crossorigin src="./js/app.min.js"></script>
+  </body>
+</html>
